@@ -1,0 +1,1126 @@
+12 сентября 01.04
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>sport</title>
+</head>
+
+<body class="body">
+    <header class="">
+        <div class="logo"> <img class="logophoto" src="img/logo.png" alt=""> </div>
+        <div class="nav"> <a class="nav__link" href="#">Главная</a> <a class="nav__link" href="#">О нас</a> <a class="nav__link" href="#">Контакты</a> <a class="nav__link" href="#">Регистрация</a> <a class="nav__link" href="#">Войти</a> </div>
+    </header>
+
+<div class="main">
+    <div class="container">
+        <h1>hi</h1>
+    </div>
+</div>
+</body>
+
+</html>
+
+
+
+
+
+
+.body {
+    /**/
+    margin: 0;
+    /*обнуляем отступы*/
+    font-size: 14px;
+    /*размер шрифта*/
+    color: #6c7279;
+    background-color: #fff;
+    /*цвет фона всей страницы*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    /*Размер блока будет оставаться без изменений*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+
+/* Container
+===================*/
+
+.container {
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+    /*выравнивание верх и низ 0 лево право авто*/
+    padding: 0 15px;
+}
+
+.upheader {
+    display: flex;
+}
+
+
+/* logo
+===================*/
+
+.logo {
+    width: 100%;
+    /*ширина*/
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.logophoto {
+    max-width: 100%;
+    height: 150px;
+}
+
+
+/* nav
+===================*/
+
+.nav {
+    text-align: center;
+    display: flex;
+    /*все элементы в ряд*/
+    justify-content: center;
+    /*выровнять по центру блока контент*/
+    /*padding-top: 50px;*/
+}
+
+.nav__link {
+    font-weight: 700;
+    text-transform: uppercase;
+    /*все буквы стали большими*/
+    margin-left: 44px;
+    /*отступ слева у каждой ссылки*/
+    color: black;
+    text-decoration: none;
+    /*убираем подчеркивания ссылок*/
+    opacity: 0.75;
+    /*прозрачность*/
+    transition: opacity .1s linear;
+    /*плавные переходы при наведении курсора*/
+}
+
+.nav__link:hover {
+    /*при наведении мыши */
+    opacity: 1;
+}
+
+.nav__link:first-child {
+    /*для самой первой ссылки убираем отступ*/
+    margin-left: 0;
+}
+
+
+/* main
+===================*/
+
+.main {
+ fffffffffffffffffffffffffffffffffffffffffffff
+
+}
+
+
+
+
+14 сентября 03.00
+
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <title>sport</title>
+</head>
+
+<body class="body">
+    <!--Body-->
+    <header class="">
+        <div class="logo"> <img class="logophoto" src="img/logo.png" alt=""> </div>
+        <div class="nav"> <a class="nav__link" href="#">Главная</a> <a class="nav__link" href="#">О нас</a> <a class="nav__link" href="#">Контакты</a> <a class="nav__link" href="#">Регистрация</a> <a class="nav__link" href="#">Войти</a> </div>
+    </header>
+    <!--Main-->
+    <div class="main">
+        <div class="container">
+            <div class="level123">
+                <div class="level1">Тренируем
+                    <br> и восстанавливаем
+                    <br> в центре города</div>
+                <div class="level2">Спортивная Секция Клуб,
+                    <br> ул. Тверская, д. 108
+                    <br> +7 999 999-99-99</div>
+                <div class="level3"> <a class="btn btn--left" href="#">Расписание</a> <a class="btn btn--right" href="#">Связаться</a> </div>
+            </div>
+        </div>
+    </div>
+    <!--textonwork-->
+    <div class="textonwork">
+        <div class="vrebetrb">Мы не просто тренируем,
+            <br> мы учим управлять своим телом</div>
+        <div class="thththth">Все тренировки и методики в клубе разрабатываются под контролем спортивного врача</div>
+    </div>
+    <!--works-->
+    <div class="container allworks">
+        <div class="wrapper exmp3"> <img src="../Websport/img/workout.jpg">
+            <div class="textunderwork">Workout (50 минут) </div>
+        </div>
+        <div class="wrapper exmp3"> <img src="../Websport/img/work/sila.jpg">
+            <div class="textunderwork">силовая тренировка (40 минут) </div>
+        </div>
+        <div class="wrapper exmp3"> <img src="../Websport/img/work/boks.jpeg">
+            <div class="textunderwork">Бокс</div>
+        </div>
+        <div class="wrapper exmp3"> <img src="../Websport/img/work/juce.jpg">
+            <div class="textunderwork">ДРУГОЕ:
+Фитнес-бар, спортивное питание, аренда шкафчиков,
+сейфовые ячейки и прочие дополнительные услуги,
+которых Вы не нашли в предыдущих... </div>
+        </div>
+        <div class="wrapper exmp3"> <img src="../Websport/img/work/wather.jpg">
+            <div class="textunderwork">Бассейн </div>
+        </div>
+        <div class="wrapper exmp3"> <img src="../Websport/img/work/massaj.jpg">
+            <div class="textunderwork">Массаж </div>
+        </div>
+        <div class="wrapper exmp3"> <img src="../Websport/img/work/banya.jpg">
+            <div class="textunderwork">Бани </div>
+        </div>
+    </div>
+    <div class="probnayatren">
+        <div class="container2">
+            <h1 class="textprobtren">Пробная тренировка 650 руб</h1> <a class="btn btn--third" href="#">Записаться</a> </div>
+    </div>
+    <!--Тренеры-->
+    <div class="team">
+        <div class="container">
+            <div class="team__inner">
+                <div class="team__item"> <img class="team__photo" src="../Websport/img/team/kakaya-ona-devushka-mechty-%D0%B4%D0%B5%D0%B2%D1%83%D1%88%D0%BA%D0%B0.jpg" alt="">
+                    <div class="team__name">Анна Иванова</div>
+                    <div class="team__prof">Фитнес-тренер </div>
+                    <div class="team__text">
+                        <p>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст </p>
+                        <p>ТекстТекстТекстТекстТекстТекст </p>
+                    </div>
+                </div>
+                <div class="team__item"> <img class="team__photo" src="../Websport/img/team/image.jpg" alt="">
+                    <div class="team__name">Анатолий борцов</div>
+                    <div class="team__prof">должность</div>
+                    <div class="team__text">
+                        <p>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст </p>
+                        <p>ТекстТекстТекстТекстТекстТекст </p>
+                    </div>
+                </div>
+                <div class="team__item"> <img class="team__photo" src="../Websport/img/team/original.jpeg" alt="">
+                    <div class="team__name">Дарья Сироткина</div>
+                    <div class="team__prof">должность</div>
+                    <div class="team__text">
+                        <p>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст </p>
+                        <p>ТекстТекстТекстТекстТекстТекст </p>
+                    </div>
+                </div>
+                <div class="team__item"> <img class="team__photo" src="../Websport/img/team/Screenshot_2.png" alt="">
+                    <div class="team__name">Вячеслав Миронов</div>
+                    <div class="team__prof">должность </div>
+                    <div class="team__text">
+                        <p>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст </p>
+                        <p>ТекстТекстТекстТекстТекстТекст </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+
+.body {
+            /**/
+            margin: 0;
+            /*обнуляем отступы*/
+            font-size: 14px;
+            /*размер шрифта*/
+            background-color: #fff;
+            /*цвет фона всей страницы*/
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        *,
+        *:before,
+        *:after {
+            box-sizing: border-box;
+            /*Размер блока будет оставаться без изменений*/
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0;
+        }
+        
+        p {
+            margin: 0 0 10px;
+        }
+        
+        body {
+            scroll-behavior: smooth;
+        }
+    
+/* Container===================*/
+.container {
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+    /*выравнивание верх и низ 0 лево право авто*/
+    padding: 0 90px;
+}
+.upheader {
+    display: flex;
+}
+
+/* logo===================*/
+.logo {
+    width: 100%;
+    /*ширина*/
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.logophoto {
+    max-width: 100%;
+    height: 150px;
+}
+
+/* nav===================*/
+.nav {
+    text-align: center;
+    display: flex;
+    /*все элементы в ряд*/
+    justify-content: center;
+    /*выровнять по центру блока контент*/
+    /*padding-top: 50px;*/
+}
+.nav__link {
+    font-weight: 700;
+    text-transform: uppercase;
+    /*все буквы стали большими*/
+    margin-left: 44px;
+    /*отступ слева у каждой ссылки*/
+    color: black;
+    text-decoration: none;
+    /*убираем подчеркивания ссылок*/
+    opacity: 0.75;
+    /*прозрачность*/
+    transition: opacity .1s linear;
+    /*плавные переходы при наведении курсора*/
+}
+.nav__link:hover {
+    /*при наведении мыши */
+    opacity: 1;
+}
+.nav__link:first-child {
+    /*для самой первой ссылки убираем отступ*/
+    margin-left: 0;
+}
+
+/* main===================*/
+.main {
+    height: 60vh;
+    background-image: url(../img/backgraund.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #4e77ad;
+    margin-top: 30px;
+}
+.vertblock {
+    height: 10vh;
+}
+.level123 {}
+.level1 {
+    padding: 34px 0 38px 0;
+    color: white;
+    font-size: 48px;
+}
+.level2 {
+    padding: 1px 0 38px 0;
+    color: ghostwhite;
+    font-size: 20px;
+}
+.level3 {}
+.btn {
+    /*Готовый код кнопки с интернета*/
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 40px;
+    border-radius: 28px;
+    /*скругление*/
+    border: 0;
+    cursor: pointer;
+    /*ручка курсора*/
+    font-family: 'Raleway',
+    sans-serif;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background .1s linear;
+}
+.btn--left {
+    background-color: #61B4CF;
+}
+.btn--right {
+    background-color: #8FB3B8;
+    margin-left: 5px;
+}
+.btn--left:hover {
+    /*при наведении изменение цвета*/
+    background-color: #3AAACF;
+}
+.btn--right:hover {
+    /*при наведении изменение цвета*/
+    background-color: #80B1B8;
+}
+
+/* textonwork===================*/
+.textonwork {
+    text-align: center;
+    padding: 90px 0px 60px;
+}
+.vrebetrb {
+    font-size: 32px;
+}
+.thththth {
+    font-size: 14px;
+    padding-top: 21px;
+}
+
+/* тренеры===================*/
+.allworks {
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrapper {
+    width: 35vh;
+    height: 35vh;
+    border: 0px solid #515151;
+    margin: 20px;
+}
+.exmp3 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.textunderwork {
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.probnayatren {
+    height: 60vh;
+    background-image: url(../img/press.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 20%;
+    background-color: #4e77ad;
+    text-align: center;
+    background-color: aqua;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.textprobtren {
+    font-weight: 700;
+    color: white;
+    padding-bottom: 10px;
+    -webkit-text-stroke: 0.1px black;
+}
+.container2 {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30vh;
+    padding-bottom: 22vh;
+}
+.btn--third {
+    background-color: orangered;
+    margin-left: 5px;
+}
+.btn--third:hover
+/*при наведении изменение цвета*/
+background-color: #3AAACF;
+.team {
+    margin: 100px 0 70px;
+}
+.team__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.team__item {
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+.team__photo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.team__name {
+    margin-bottom: 8px;
+    font-size: 22px;
+    color: #2d3033;
+}
+.team__prof {
+    margin-bottom: 15px;
+    font-size: 13px;
+    color: #e84545;
+    text-transform: uppercase;
+}
+.team__text {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c7279;
+}
+.reviews {
+    overflow: hidden;
+    background-color: #53354a;
+}
+.reviews__item {
+    display: flex;
+    flex-wrap: wrap;
+}
+.reviews__photo {
+    width: 50%;
+    height: 500px;
+    position: relative;
+}
+.reviews__img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+.reviews__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-left: 80px;
+}
+.reviews__text {
+    margin-bottom: 25px;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 1.2;
+    color: #fff;
+}
+.reviews__author {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15сентября 12.43 
+
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <title>sport</title>
+</head>
+
+<body class="body">
+    <!--Body-->
+    <header class="header">
+        <div class="logo"> <img class="logophoto" src="img/logo.png" alt=""> </div>
+        <div class="nav"> <a class="nav__link" href="#">Главная</a> <a class="nav__link" href="index.html">О нас</a> <a class="nav__link" href="#">Контакты</a> <a class="nav__link" href="registration.html">Регистрация</a> <a class="nav__link" href="#">Войти</a> </div>
+    </header>
+    <!--Main-->
+    <div class="main">
+        <div class="container">
+            <div class="level123">
+                <div class="level1">Тренируем
+                    <br> и восстанавливаем
+                    <br> в центре города</div>
+                <div class="level2">Спортивная Секция Клуб,
+                    <br> ул. Тверская, д. 108
+                    <br> +7 999 999-99-99</div>
+                <div class="level3"> <a class="btn btn--left" href="#">Расписание</a> <a class="btn btn--right" href="#">Связаться</a> </div>
+            </div>
+        </div>
+    </div>
+    <!--textonwork-->
+    <div class="textonwork">
+        <div class="vrebetrb">Мы не просто тренируем,
+            <br> мы учим управлять своим телом</div>
+        <div class="thththth">Все тренировки и методики в клубе разрабатываются под контролем спортивного врача</div>
+    </div>
+    <!--works-->
+    <div class="container allworks">
+        <div class="wrapper exmp3"> <img src="../Websport/img/workout.jpg">
+            <div class="textunderwork">Workout (50 минут) </div>
+        </div>
+        <div class="wrapper exmp3"> <img src="../Websport/img/work/sila.jpg">
+            <div class="textunderwork">силовая тренировка (40 минут) </div>
+        </div>
+        <div class="wrapper exmp3"> <img src="../Websport/img/work/boks.jpeg">
+            <div class="textunderwork">Бокс</div>
+        </div>
+        <div class="wrapper exmp3"> <img src="../Websport/img/work/juce.jpg">
+            <div class="textunderwork">Другое</div>
+        </div>
+        <div class="wrapper exmp3"> <img src="../Websport/img/work/wather.jpg">
+            <div class="textunderwork">Бассейн </div>
+        </div>
+        <div class="wrapper exmp3"> <img src="../Websport/img/work/massaj.jpg">
+            <div class="textunderwork">Массаж </div>
+        </div>
+        <div class="wrapper exmp3"> <img src="../Websport/img/work/banya.jpg">
+            <div class="textunderwork">Бани </div>
+        </div>
+    </div>
+    <div class="probnayatren">
+        <div class="">
+            <h1 class="textprobtren">Пробная тренировка 650 руб</h1> <a class="btn btn--third" href="#">Записаться</a> </div>
+    </div>
+    <!--Тренеры-->
+    <div class="team">
+        <div class="container">
+            <div class="team__inner">
+                <div class="team__item"> <img class="team__photo" src="../Websport/img/team/kakaya-ona-devushka-mechty-%D0%B4%D0%B5%D0%B2%D1%83%D1%88%D0%BA%D0%B0.jpg" alt="">
+                    <div class="team__name">Анна Иванова</div>
+                    <div class="team__prof">Фитнес-тренер </div>
+                    <div class="team__text">
+                        <p>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст </p>
+                        <p>ТекстТекстТекстТекстТекстТекст </p>
+                    </div>
+                </div>
+                <div class="team__item"> <img class="team__photo" src="../Websport/img/team/image.jpg" alt="">
+                    <div class="team__name">Анатолий борцов</div>
+                    <div class="team__prof">должность</div>
+                    <div class="team__text">
+                        <p>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст </p>
+                        <p>ТекстТекстТекстТекстТекстТекст </p>
+                    </div>
+                </div>
+                <div class="team__item"> <img class="team__photo" src="../Websport/img/team/original.jpeg" alt="">
+                    <div class="team__name">Дарья Сироткина</div>
+                    <div class="team__prof">должность</div>
+                    <div class="team__text">
+                        <p>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст </p>
+                        <p>ТекстТекстТекстТекстТекстТекст </p>
+                    </div>
+                </div>
+                <div class="team__item"> <img class="team__photo" src="../Websport/img/team/Screenshot_2.png" alt="">
+                    <div class="team__name">Вячеслав Миронов</div>
+                    <div class="team__prof">должность </div>
+                    <div class="team__text">
+                        <p>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст </p>
+                        <p>ТекстТекстТекстТекстТекстТекст </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Тренеры--><!--Тренеры--><!--Тренеры--><!--Тренеры-->
+    <footer class="footer">
+    <div class="contactme">
+        <h1>СВЯЖИТЕСЬ С НАМИ</h1>
+        <div class="minitext">Мы готовы помочь вам в любую минуту</div>
+    </div>
+    <div class="icon_inner">
+  <div class="icon_box">
+       <img class = "footericons" src="../Websport/img/icons/smartphone.svg" alt=""> 
+       <div class="icontext">+7 920 766 555 0 <br> +7 934 555 333 0</div>
+    </div>
+     <div class="icon_box">
+       <img class = "footericons" src="../Websport/img/icons/smartphone.svg" alt=""> 
+       <div class="icontext">+7 920 766 555 0 <br> +7 934 555 333 0</div>
+    </div>
+     <div class="icon_box">
+       <img class = "footericons" src="../Websport/img/icons/mail.svg" alt=""> 
+       <div class="icontext">+7 920 766 555 0 <br> +7 934 555 333 0</div>
+    </div>
+    </div>
+    <div class="footerbottombottomdown">
+        
+    </div>
+     </footer>
+</body>
+
+</html>
+
+
+
+
+
+.body {
+            /**/
+            margin: 0;
+            /*обнуляем отступы*/
+            
+            /*размер шрифта*/
+            background-color: #fff;
+            /*цвет фона всей страницы*/
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        *,
+        *:before,
+        *:after {
+            box-sizing: border-box;
+            /*Размер блока будет оставаться без изменений*/
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0;
+        }
+        
+        p {
+            margin: 0 0 10px;
+        }
+        
+        body {
+            
+            scroll-behavior: smooth;
+        }
+    
+/* Container===================*/
+.container {
+    width: 100%;
+    max-width: 80vw;
+    margin: 0 auto;
+    /*выравнивание верх и низ 0 лево право авто*/
+    padding: 0 90px;
+}
+
+    .header{
+        padding: 0 5vw;
+    }
+/* logo===================*/
+.logo {
+    width: 100%;
+    /*ширина*/
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.logophoto {
+    max-width: 100%;
+    height: 24vh;
+}
+
+/* nav===================*/  
+.nav {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* padding-top: 50px; */
+    flex-wrap: wrap;
+    
+}
+.nav__link {
+    font-size: 3vh;
+    text-transform: uppercase;
+    /*все буквы стали большими*/
+    padding-left: 2vw;
+    /*отступ слева у каждой ссылки*/
+    color: black;
+    text-decoration: none;
+    /*убираем подчеркивания ссылок*/
+    opacity: 0.75;
+    /*прозрачность*/
+    transition: opacity .1s linear;
+    /*плавные переходы при наведении курсора*/
+}
+.nav__link:hover {
+    /*при наведении мыши */
+    opacity: 1;
+}
+.nav__link:first-child {
+    /*для самой первой ссылки убираем отступ*/
+    padding-left: 0;
+}
+
+/* main===================*/
+.main {
+    
+    background-image: url(../img/backgraund.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #4e77ad;
+    margin-top: 30px;
+}
+.vertblock {
+    height: 10vh;
+}
+.level123 {}
+.level1 {
+    padding: 34px 0 38px 0;
+    color: white;
+    font-size: 48px;
+}
+.level2 {
+    padding: 1px 0 38px 0;
+    color: ghostwhite;
+    font-size: 20px;
+}
+.level3 {}
+.btn {
+    /*Готовый код кнопки с интернета*/
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 40px;
+    border-radius: 28px;
+    /*скругление*/
+    border: 0;
+    cursor: pointer;
+    /*ручка курсора*/
+    font-family: 'Raleway',
+    sans-serif;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background .1s linear;
+}
+.btn--left {
+    background-color: #61B4CF;
+}
+.btn--right {
+    background-color: #8FB3B8;
+    margin-left: 5px;
+}
+.btn--left:hover {
+    /*при наведении изменение цвета*/
+    background-color: #3AAACF;
+}
+.btn--right:hover {
+    /*при наведении изменение цвета*/
+    background-color: #80B1B8;
+}
+
+/* textonwork===================*/
+.textonwork {
+    text-align: center;
+    padding: 90px 0px 60px;
+    padding-left: 
+}
+.vrebetrb {
+    font-size: 32px;
+}
+.thththth {
+    font-size: 14px;
+    padding-top: 21px;
+}
+
+/* тренеры===================*/
+.allworks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.wrapper {
+    min-width: 35vh;
+    height: 35vh;
+    border: 0px solid #515151;
+    margin: 20px;
+}
+.exmp3 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.textunderwork {
+    font-size: 2vh;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.probnayatren {
+    height: 60vh;
+    background-image: url(../img/press.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 20%;
+    background-color: #4e77ad;
+    text-align: center;
+    background-color: aqua;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.textprobtren {
+    font-weight: 700;
+    color: white;
+    padding-bottom: 10px;
+    -webkit-text-stroke: 0.1px black;
+}
+
+}
+.btn--third {
+    background-color: orangered;
+    margin-left: 5px;
+}
+.btn--third:hover
+/*при наведении изменение цвета*/
+background-color: #3AAACF;
+.team {
+    margin: 100px 0 70px;
+}
+.team__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.team__item {
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+.team__photo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.team__name {
+    margin-bottom: 8px;
+    font-size: 22px;
+    color: #2d3033;
+}
+.team__prof {
+    margin-bottom: 15px;
+    font-size: 13px;
+    color: #e84545;
+    text-transform: uppercase;
+}
+.team__text {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c7279;
+}
+.reviews {
+    overflow: hidden;
+    background-color: #53354a;
+}
+.reviews__item {
+    display: flex;
+    flex-wrap: wrap;
+}
+.reviews__photo {
+    width: 50%;
+    height: 500px;
+    position: relative;
+}
+.reviews__img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+.reviews__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-left: 80px;
+}
+.reviews__text {
+    margin-bottom: 25px;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 1.2;
+    color: #fff;
+}
+.reviews__author {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/*footerfooterfooterfooterfooter*/
+
+.footer{
+    background-color: #61B4CF;
+    color: white;
+    
+
+
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.contactme{
+    justify-content: center;
+}
+
+.footericons{
+    
+   height: 10vh; 
+}
+
+
+.footerbottombottomdown{
+    
+}
+
+.icon_inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+.icon_box{
+    margin-left: 5vw;
+    margin-top: 4vh;
+}
+
+
+
+.icon_box:first-child {
+    /*для самой первой ссылки убираем отступ*/
+    margin-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*registrationregistrationregistrationregistration*/
+
+.main2{
+    height: 100vh;
+    background-color: aqua;    
+    margin: 20px;
+}
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

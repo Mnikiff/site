@@ -1,0 +1,497 @@
+.body {
+    /**/
+    margin: 0;
+    /*обнуляем отступы*/
+    /*размер шрифта*/
+    background-color: #fff;
+    /*цвет фона всей страницы*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    /*Размер блока будет оставаться без изменений*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+
+/* Container===================*/
+
+.container {
+    padding: 0 7vw;
+    height: 100%
+}
+
+.nav {
+    display: flex;
+}
+
+.header {
+    padding: 0 5vw;
+}
+
+
+/* logo===================*/
+
+.logo {
+    width: 100%;
+    /*ширина*/
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.logophoto {
+    max-width: 100%;
+    height: 24vh;
+}
+
+
+/* nav===================*/
+
+.nav {
+    text-align: center;
+    justify-content: center;
+    /* padding-top: 50px; */
+    flex-wrap: wrap;
+}
+
+.nav__link {
+    font-size: 3vh;
+    text-transform: uppercase;
+    /*все буквы стали большими*/
+    padding-left: 2vw;
+    /*отступ слева у каждой ссылки*/
+    color: black;
+    text-decoration: none;
+    /*убираем подчеркивания ссылок*/
+    opacity: 0.75;
+    /*прозрачность*/
+    transition: opacity .1s linear;
+    /*плавные переходы при наведении курсора*/
+}
+
+.nav__link:hover {
+    /*при наведении мыши */
+    opacity: 1;
+}
+
+.nav__link:first-child {
+    /*для самой первой ссылки убираем отступ*/
+    padding-left: 0;
+}
+
+
+/* main===================*/
+
+.main {
+    background-image: url(../img/backgraund.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #4e77ad;
+    margin-top: 30px;
+}
+
+.vertblock {
+    height: 10vh;
+}
+
+.level123 {
+    text-align: center;
+    height: 100%
+}
+
+.level1 {
+    padding: 34px 0 38px 0;
+    color: white;
+    font-size: 9vh;
+    height: 33%;
+}
+
+.level2 {
+    padding: 1px 0 38px 0;
+    color: ghostwhite;
+    font-size: 4vh;
+     height: 33%;
+}
+
+.level3 {
+     height: 33%;
+}
+
+.btn {
+    /*Готовый код кнопки с интернета*/
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 40px;
+    border-radius: 28px;
+    /*скругление*/
+    border: 0;
+    cursor: pointer;
+    /*ручка курсора*/
+    font-family: 'Raleway', sans-serif;
+    font-size: 4vh;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background .1s linear;
+    margin-bottom: 5vh;
+}
+
+.btn--left {
+    background-color: #61B4CF;
+}
+
+.btn--right {
+    background-color: #8FB3B8;
+    margin-left: 5px;
+}
+
+.btn--left:hover {
+    /*при наведении изменение цвета*/
+    background-color: #3AAACF;
+}
+
+.btn--right:hover {
+    /*при наведении изменение цвета*/
+    background-color: #80B1B8;
+}
+
+.btn--third {
+    background-color: #61B4CF;
+    margin-left: 5px;
+}
+
+.btn--third:hover {
+    /*при наведении изменение цвета*/
+    background-color: orangered;
+}
+
+
+/* textonwork===================*/
+
+.textonwork {
+    text-align: center;
+    padding: 90px 25px 60px 25px;
+    padding-left:
+}
+
+.vrebetrb {
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+.thththth {
+    font-size: 2vh;
+    padding-top: 2vh;
+}
+
+
+/* тренеры===================*/
+
+.team__word{
+    font-size: 3vh;
+}
+.allworks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wrapper {
+        min-width: 35vh;
+    height: 35vh;
+    border: 0px solid #515151;
+    margin: 9px 9px 64px 9px;
+}
+
+.exmp3 img {
+        object-fit: cover;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.textunderwork {
+    font-size: 2.5vh;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.probnayatren {
+    height: 60vh;
+    
+    background-image: url(../img/press.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 20%;
+
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+
+.textprobtren {
+  position: relative;
+    height: 50%;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 10px;
+    -webkit-text-stroke: 0.1px black;
+    
+}
+
+.t650{
+    font-size: 6vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) /*после сдвига по центру надо еще сдвинуть на половину собвственной ширины, чтоб было точно по центру вне зависимости от размера */
+} 
+
+
+
+.team {
+    margin: 100px 0 70px;
+}
+
+.team__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.team__item {
+    width: 50%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.team__photo {
+    width: 100%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.team__name {
+    margin-bottom: 8px;
+    font-size: 4vh;
+    color: #2d3033;
+}
+
+.team__prof {
+    margin-bottom: 15px;
+    font-size: 3vh;
+    color: #e84545;
+    text-transform: uppercase;
+}
+
+.team__text {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c7279;
+}
+
+.reviews {
+    overflow: hidden;
+    background-color: #53354a;
+}
+
+.reviews__item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reviews__photo {
+    width: 50%;
+    height: 500px;
+    position: relative;
+}
+
+.reviews__img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.reviews__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-left: 80px;
+}
+
+.reviews__text {
+    margin-bottom: 25px;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.reviews__author {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+/*footerfooterfooterfooterfooter*/
+
+.footer {
+    background-color: #61B4CF;
+    color: white;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.contactme {
+    justify-content: center;
+}
+
+.footericons {
+    height: 10vh;
+}
+
+.footerbottombottomdown {}
+
+.icon_inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icon_box {
+    margin-left: 5vw;
+    margin-top: 4vh;
+}
+
+.icon_box:first-child {
+    /*для самой первой ссылки убираем отступ*/
+    margin-left: 0;
+}
+
+
+/*registrationregistrationregistrationregistration*/
+
+.main2 {
+    height: 100vh;
+    background-color: aqua;
+    margin: 20px;
+}
+
+
+/*adapt_container adapt_container adapt_container*/
+
+/*
+@media (min-width: 575.98px) {
+    .container {
+        max-width: 540px;
+        margin-left:3vw ;
+        margin-right: 3vw;
+      
+        padding: 0 3vw;
+    }
+}
+
+@media (min-width: 767.98px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 991.98px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1199.98px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+*/
+
+
+/*    adapt_phone adapt_phone adapt_phone adapt_phone*/
+
+@media screen and (orientation:portrait) {
+    .container{
+        padding: inherit
+    }
+    .nav {
+        display: grid;
+    }
+    .level123 {
+         justify-content: center; 
+        text-align: center;
+    }
+    .nav__link {
+        font-size: 4vh;
+        padding-left: 0vh;
+        margin-bottom: 1vh;
+    }
+    .main{
+       
+    }
+    .level1 {
+            word-wrap: break-word;
+    font-size: 4vh;
+    margin-bottom: 4vh;
+    max-width: 100%;
+    }
+    .level2{
+        font-size: 3vh;
+        margin-bottom: 4vh;
+    }
+    .allworks{
+        display: block;
+    }
+    .btn{
+        margin-bottom: 2vh;
+        font-size: 4vh;
+    }
+    .thththth {
+    font-size: 0.6vh;
+    padding-top: 2vh;
+}
+    .team__inner{
+        display: block;
+    }
+    .team__item{
+        width: 100%
+    }
+}
